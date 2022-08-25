@@ -181,8 +181,11 @@ hr:after {
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
-.sub-heading p {
+.sub-heading h2 {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
 .sub-heading .btnConsultas {
@@ -204,11 +207,14 @@ hr:after {
     }
     #section-home .sub-heading {
         font-size: 1.05em;
-
     }
 
     .sub-heading p {
+        text-align: center;  
+    }
+    .sub-heading h2 {
         text-align: center;
+       font-size: 1.1rem;
     }
     .sub-heading .btnConsultas {
         display: block;
@@ -781,5 +787,9 @@ hr:after {
     }
     .footer-dev__data{
         flex-direction: column;
+        font-size: 0.7rem;
+    }
+    .footer-dev__links img{
+        width: 28px;
     }
 }
